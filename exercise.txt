@@ -45,3 +45,13 @@ ESERCIZIO 6
     FROM `degrees`  
     WHERE `level` = 'MAGISTRALE';
 
+ESERCIZIO 7
+
+    SELECT COUNT(*) AS `number_of_departments`
+    FROM `departments`;
+
+ESERCIZIO 8
+
+    
+
+
