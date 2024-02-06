@@ -52,6 +52,8 @@ ESERCIZIO 7
 
 ESERCIZIO 8
 
-    
+    SELECT COUNT(*) AS `number_of_techer`
+    FROM `teachers`
+    WHERE `phone` IS NULL;
 
 
