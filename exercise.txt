@@ -31,3 +31,10 @@ ESERCIZIO 4
     FROM `courses` 
     WHERE `period` = 'I semestre' 
     AND `year` = '1';
+
+ESERCIZIO 5
+
+    SELECT * 
+    FROM `exams` 
+    WHERE DATE(`date`) = '2020/06/20'
+    AND HOUR(`hour`) >= '14:';
