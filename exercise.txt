@@ -43,4 +43,5 @@ ESERCIZIO 6
 
     SELECT * 
     FROM `degrees`  
-    WHERE `degrees`.`level` = 'MAGISTRALE';
+    WHERE `level` = 'MAGISTRALE';
+
