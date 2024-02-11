@@ -4,3 +4,11 @@ SELECT YEAR('enrolment_date'),
 COUNT(*) AS 'registrati'
 FROM 'students'
 GROUP BY YEAR('enrolment_date');
+
+exercise 2
+
+SELECT 'office_address',
+COUNT(*) AS 'teachers'
+FROM 'teachers'
+GROUP BY YEAR('office_address');
+
