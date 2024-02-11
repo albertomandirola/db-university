@@ -1,0 +1,6 @@
+exercise 1
+
+SELECT YEAR('enrolment_date'),
+COUNT(*) AS 'registrati'
+FROM 'students'
+GROUP BY YEAR('enrolment_date');
