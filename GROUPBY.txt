@@ -12,3 +12,9 @@ COUNT(*) AS 'teachers'
 FROM 'teachers'
 GROUP BY YEAR('office_address');
 
+exercise 3
+
+SELECT 'exam_id',
+AVG('vote') AS 'voto_medio'
+FROM 'exam_students'
+GROUP BY YEAR('exam_id');
