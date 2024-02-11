@@ -18,3 +18,10 @@ SELECT 'exam_id',
 AVG('vote') AS 'voto_medio'
 FROM 'exam_students'
 GROUP BY YEAR('exam_id');
+
+exercise 4
+
+SELECT 'degree_id',
+COUNT(*) AS 'numero_corsi'
+FROM 'courses'
+GROUP BY YEAR('degree_id');
