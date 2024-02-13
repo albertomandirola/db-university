@@ -1,0 +1,8 @@
+ex 1
+
+SELECT `degrees`.`name`,`students`.`name`,`students`.`surname`
+FROM `degrees`
+JOIN `students`
+ON `degrees`.`id`= `students`.`degree_id`
+WHERE `degrees`.`name`= 'Corso di Laurea in Economia';
+
