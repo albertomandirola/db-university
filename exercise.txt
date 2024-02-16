@@ -23,7 +23,7 @@ ESERCIZIO 3
 
     SELECT * 
     FROM `students` 
-    WHERE YEAR(CURDATE()) - YEAR(date_of_birth) > 30;
+    WHERE YEAR(CURDATE()) - YEAR(date_of_birth)q > 30;
 
 ESERCIZIO 4
 

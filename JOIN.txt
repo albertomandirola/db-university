@@ -7,8 +7,16 @@ ON `degrees`.`id`= `students`.`degree_id`
 WHERE `degrees`.`name`= 'Corso di Laurea in Economia';
 
 ex 3
+
 SELECT `teachers`.`name` AS `teacher_name`,`teachers`.`surname` AS `teacher_surname` , `courses`.`name` AS `course_name`
 FROM `teachers`
 JOIN `course_teacher` ON `course_teacher`.`teacher_id` = `teachers`.`id` 
 JOIN `courses` ON `course_teacher`.`course_id` = `courses`.`id` 
 WHERE `teachers`.`id` = 44;
+
+
+SELECT students.surname AS cognome, students.name AS nome, degrees.name AS corso_laurea, departments.name AS department 
+FROM students 
+INNER JOIN degrees ON students.degree_id = degrees.id INNER JOIN departments ON degrees.department_id = departments.id 
+ORDER BY cognome, nome;
+
